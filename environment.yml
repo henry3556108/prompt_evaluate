@@ -1,0 +1,11 @@
+name: claude-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - anthropic>=0.18.0
+    - openai>=1.0.0
+    - python-dotenv>=0.19.0
