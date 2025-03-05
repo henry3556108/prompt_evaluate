@@ -14,6 +14,33 @@ A Python-based system for generating and evaluating Product Requirements Documen
   - Feasibility
   - Prioritization
   - Acceptance Criteria
+- Automated testing framework for content generation
+- Support for both Claude and GPT-4 API integration
+
+## Components
+
+### PromptManager
+- Manages prompt templates from JSON configuration
+- Supports different prompt styles (comprehensive/concise)
+- Handles system and user prompt generation
+- Flexible template parameter substitution
+
+### ContentEvaluator
+- Integrates with both Claude and OpenAI APIs
+- Generates content based on task information
+- Provides comprehensive content evaluation
+- Supports different generation styles and prompt types
+
+### Testing Framework
+- Automated test cases for various scenarios:
+  - User Registration Features
+  - API Performance Optimization
+  - Data Analytics Dashboard
+  - Security Enhancements
+  - Mobile App Features
+- Detailed evaluation metrics and scoring
+- Comparison between comprehensive and concise generation styles
+- Optional detailed output for debugging
 
 ## Setup
 
